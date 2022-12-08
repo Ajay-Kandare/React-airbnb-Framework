@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  }
+  
+  body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  nav {
+      height: 100px;
+      display: flex;
+      padding: 20px 36px;
+      box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  }
+  
+  .nav--logo {
+      max-width: 10000px;
+      height: 70px;
+      
+  
+  }
+  
+  section {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  .hero-img{
+      padding-left: 50px;
+      align-self: center; 
+      max-width: 700px;
+  }
+  .hero-h1{
+      
+      margin-bottom: 17px;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .hero-text{
+      margin-top: 0;
+      font-size: 30px;
+  }
+  
+  .card {
+  margin-left: 20px;
+  font-weight: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+   
+  }
+  .s1{
+      padding-left: 5px;
+  }
+  
+  .grey{
+      color: #918E9B ;
+      padding-left: 8px;
+  }
+  .bold{
+      font-weight: bold;
+  }
+  .card-image{
+  height: 400px;
+  border-radius: 10px;
+  width: 220px;
+  
+  }
+  .star-image{
+      height: 45px;
+  }
+  .card-stats{
+  display: flex;
+  align-items: center;
+  }
+  .para{
+      width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  .card-list {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+      overflow-x: auto;
+  }
+  
+  .card-badge {
+      position: absolute;
+      top: 6px;
+      left:6px;
+      background-color: aliceblue;
+      padding: 5px 7px;
+      border-radius: 2px;
+      font-weight: bold;
+  }
